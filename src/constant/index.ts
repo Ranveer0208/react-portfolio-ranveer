@@ -94,6 +94,6 @@ export const PROJECTS: ProjectType[] = [
 
 export const CONTACT = {
    address: "Piska More, Ranchi, Jharkhand, India, 834005 ",
-   phoneNo: "+91 910 218 8671",
+   phoneNo: "+91 910-218-8671",
    email: "ranveer.kumaraug@gmail.com",
 };
