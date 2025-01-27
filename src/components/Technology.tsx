@@ -1,7 +1,5 @@
 import { RiReactjsLine } from "react-icons/ri";
 import { BiLogoTypescript } from "react-icons/bi";
-import { FaNodeJs } from "react-icons/fa";
-import { BiLogoPostgresql } from "react-icons/bi";
 import { motion, Variants } from "framer-motion";
 import { GrMysql } from "react-icons/gr";
 import { FaPhp } from "react-icons/fa6";
