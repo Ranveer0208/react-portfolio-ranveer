@@ -1,10 +1,13 @@
 import { RiReactjsLine } from "react-icons/ri";
-import { TbBrandNextjs } from "react-icons/tb";
-import { SiMongodb } from "react-icons/si";
-import { DiRedis } from "react-icons/di";
+import { BiLogoTypescript } from "react-icons/bi";
 import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { motion, Variants } from "framer-motion";
+import { GrMysql } from "react-icons/gr";
+import { FaPhp } from "react-icons/fa6";
+import { IoLogoCss3, IoLogoJavascript } from "react-icons/io5";
+import { TbBrandNextjs } from "react-icons/tb";
+import { AiOutlineHtml5 } from "react-icons/ai";
 
 // Define the variants for the animation
 const iconVariants = (duration: number): Variants => ({
@@ -34,6 +37,22 @@ const Technology = () => {
                <RiReactjsLine className="text-6xl text-cyan-400" />
             </motion.div>
             <motion.div
+               variants={iconVariants(3.2)} // Pass the variants prop
+               initial="initial"
+               animate="animate"
+               className="rounded-2xl border-4 border-neutral-800 p-4"
+            >
+               <IoLogoJavascript className="text-6xl text-yellow-500" />
+            </motion.div>
+            <motion.div
+               variants={iconVariants(3.2)} // Pass the variants prop
+               initial="initial"
+               animate="animate"
+               className="rounded-2xl border-4 border-neutral-800 p-4"
+            >
+               <BiLogoTypescript className="text-6xl text-blue-500" />
+            </motion.div>
+            <motion.div
                variants={iconVariants(3)} // Pass the variants prop
                initial="initial"
                animate="animate"
@@ -42,28 +61,20 @@ const Technology = () => {
                <TbBrandNextjs className="text-6xl" />
             </motion.div>
             <motion.div
-               variants={iconVariants(2.7)} // Pass the variants prop
-               initial="initial"
-               animate="animate"
-               className="rounded-2xl border-4 border-neutral-800 p-4"
-            >
-               <SiMongodb className="text-6xl text-green-500" />
-            </motion.div>
-            <motion.div
                variants={iconVariants(4)} // Pass the variants prop
                initial="initial"
                animate="animate"
                className="rounded-2xl border-4 border-neutral-800 p-4"
             >
-               <DiRedis className="text-6xl text-red-700" />
+               <FaPhp className="text-6xl text-purple-500" />
             </motion.div>
             <motion.div
-               variants={iconVariants(2.9)} // Pass the variants prop
+               variants={iconVariants(2.7)} // Pass the variants prop
                initial="initial"
                animate="animate"
                className="rounded-2xl border-4 border-neutral-800 p-4"
             >
-               <FaNodeJs className="text-6xl text-green-500" />
+               <GrMysql className="text-6xl text-orange-600" />
             </motion.div>
             <motion.div
                variants={iconVariants(3.2)} // Pass the variants prop
@@ -71,7 +82,15 @@ const Technology = () => {
                animate="animate"
                className="rounded-2xl border-4 border-neutral-800 p-4"
             >
-               <BiLogoPostgresql className="text-6xl text-sky-700" />
+               <AiOutlineHtml5 className="text-6xl text-amber-600" />
+            </motion.div>
+            <motion.div
+               variants={iconVariants(2.9)} // Pass the variants prop
+               initial="initial"
+               animate="animate"
+               className="rounded-2xl border-4 border-neutral-800 p-4"
+            >
+               <IoLogoCss3 className="text-6xl text-blue-600" />
             </motion.div>
          </motion.div>
       </div>

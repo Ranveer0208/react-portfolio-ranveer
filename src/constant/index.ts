@@ -1,9 +1,10 @@
-import project1 from "../assets/2138144.webp";
-/*import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";*/
+import project1 from "../assets/projects_pic/kuberaquiz.jpeg";
+import project2 from "../assets/projects_pic/ms.jpeg";
+import project3 from "../assets/projects_pic/rentz4u_landing_page.jpeg";
+import project4 from "../assets/projects_pic/vus.jpeg";
+import project5 from "../assets/projects_pic/coronatest.jpeg";
 
-export const HERO_CONTENT: string = `Self-motivated developer with over 3 years of experience working on a wide range of web-based projects. Passionate about coding and specialize in creating customized user interfaces that are accessible, user-friendly, and secure. I am highly organized and able to manage multiple projects and deadlines effectively. By staying up-to-date with the latest technologies, I consistently apply best practices to deliver high-quality solutions. I am also skilled in adapting to new challenges and continuously improving my work to meet the evolving needs of each project.`;
+export const HERO_CONTENT: string = `Self-motivated developer with over 3 years of hands-on experience working on a wide range of web-based projects. Passionate about coding and specialize in creating customized user interfaces that are accessible, user-friendly, and secure. I am highly organized and able to manage multiple projects and deadlines effectively. By staying up-to-date with the latest technologies, I consistently apply best practices to deliver high-quality solutions. I am also skilled in adapting to new challenges and continuously improving my work to meet the evolving needs of each project.`;
 
 export const ABOUT_TEXT: string = `I am a motivated software developer with over three years of experience building web-based applications, I have honed my skills in crafting intuitive, secure, and scalable solutions that meet users' needs.
 During my tenure at AVRL in Seattle, I contributed to developing advanced bot functionalities using JavaScript, earning two promotions in under two years due to consistently high performance. I also managed multiple client projects simultaneously, ensuring timely delivery and quality. 
@@ -60,6 +61,7 @@ export const EXPERIENCES: ExperienceType[] | undefined = [
 ];
 
 type ProjectType = {
+   id: number;
    title: string;
    image: string;
    description: string;
@@ -68,32 +70,44 @@ type ProjectType = {
 
 export const PROJECTS: ProjectType[] = [
    {
-      title: "Quiz Game",
+      id: 1,
+      title: "KuberaQuiz (Quiz Game)",
       image: project1,
-      description: `
-      • Developed KuberaQuiz, a live multiplayer quiz game based on the theme "Invite, Play, Earn, and Learn," engaging users with interactive gameplay.
-      • Designed and implemented real-time multiplayer features, and integrated payment gateway promoting user engagement and competition
-`,
+      description: `A live multiplayer quiz game based on the theme "Invite, Play, Earn, and Learn".`,
       technologies: ["HTML", "CSS", "Javascript", "PHP", "mySQL", "AJAX"],
    },
    {
-      title: "Corona Test Website",
-      image: project1,
-      description: `
-      • Enabled users to receive instant feedback, providing a quick self-assessment tool for COVID-19 risk.`,
-      technologies: ["HTML", "CSS", "Javascript"],
+      id: 2,
+      title: "Microsoft",
+      image: project2,
+      description: `Microsoft's home page clone using Typescript and Tailwind css.`,
+      technologies: ["React", "TypeScript", "Tailwind", "HTML", "CSS"],
    },
    {
-      title: "Portfolio Website",
-      image: project1,
-      description:
-         "• A personal portfolio website showcasing projects, skills, and contact information.",
+      id: 3,
+      title: "Rentz4u",
+      image: project3,
+      description: `a platform designed to help users find budget-friendly rooms for rent.`,
+      technologies: ["HTML", "CSS", "Javascript", "PHP", "mySQL", "AJAX"],
+   },
+   {
+      id: 4,
+      title: "VuStatus app (Doctor-App)",
+      image: project4,
+      description: `A platform that enables users to check the real-time availability & current status of doctors.`,
+      technologies: ["React", "TypeScript", "Tailwind", "HTML", "CSS"],
+   },
+   {
+      id: 5,
+      title: "CoronaTest Website",
+      image: project5,
+      description: `It is a simple website,  which provids a quick self-assessment tool for COVID-19 risk.`,
       technologies: ["React", "TypeScript", "Tailwind", "HTML", "CSS"],
    },
 ];
 
 export const CONTACT = {
-   address: "Piska More, Ranchi, Jharkhand, India, 834005 ",
+   address: "Ranchi, Jharkhand, India",
    phoneNo: "+91 910-218-8671",
    email: "ranveer.kumaraug@gmail.com",
 };
