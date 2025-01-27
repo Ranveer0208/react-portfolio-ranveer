@@ -1,4 +1,3 @@
-import img from '../assets/hero_pic.png'
 import { ABOUT_TEXT } from '../constant/index'
 import hero_pic from '../assets/hero_about/hero.png'
 import { motion } from 'framer-motion'
