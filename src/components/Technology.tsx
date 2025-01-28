@@ -31,11 +31,11 @@ const Technology = () => {
                variants={iconVariants(2.5)} // Pass the variants prop
                initial="initial"
                animate="animate"
-               className="rounded-2xl border-4 border-neutral-800 p-4">
+               className="rounded-2xl border-4 border-neutral-800 p-4 z-50">
 
                <span className="flex flex-wrap group relative rounded-xl hover:bg-neutral-hover:text-cyan-300 hover:cursor-pointer">
                   <RiReactjsLine className="text-6xl text-cyan-400" />
-                  <div className="flex flex-wrap gap-1 w-fit absolute top-[7rem] right-0 scale-0 group-hover:scale-100 bg-neutral-800 px-4 py-3 rounded-lg border-2 border-cyan-400 transition-transform duration-300 ease-in-out -translate-x-15 ">React
+                  <div className=" flex flex-wrap gap-1 w-fit absolute top-[7rem] right-0 scale-0 group-hover:scale-100 bg-neutral-800 px-4 py-3 rounded-lg border-2 border-cyan-400 transition-transform duration-300 ease-in-out -translate-x-15 ">React
                      <div className="scale-0 group-hover:scale-100 transition-transform duration-1000 ease-in-out w-5 h-5 bg-neutral-800 border-2 border-t-cyan-400 border-l-cyan-400 border-b-transparent border-r-transparent absolute -top-[0.69rem] right-8 rotate-45"></div>
                   </div>
                </span>
@@ -46,7 +46,7 @@ const Technology = () => {
                variants={iconVariants(3.2)} // Pass the variants prop
                initial="initial"
                animate="animate"
-               className="rounded-2xl border-4 border-neutral-800 p-4">
+               className="rounded-2xl border-4 border-neutral-800 p-4 z-40">
                <span className="flex flex-wrap group relative rounded-xl hover:bg-neutral-hover:text-cyan-300 hover:cursor-pointer">
 
                   <IoLogoJavascript className="text-6xl text-yellow-500" />
@@ -59,7 +59,7 @@ const Technology = () => {
                variants={iconVariants(3.2)} // Pass the variants prop
                initial="initial"
                animate="animate"
-               className="rounded-2xl border-4 border-neutral-800 p-4">
+               className="rounded-2xl border-4 border-neutral-800 p-4 z-10">
                <span className="flex flex-wrap group relative rounded-xl hover:bg-neutral-hover:text-cyan-300 hover:cursor-pointer">
 
                   <BiLogoTypescript className="text-6xl text-blue-500" />
@@ -74,7 +74,7 @@ const Technology = () => {
                variants={iconVariants(3)} // Pass the variants prop
                initial="initial"
                animate="animate"
-               className="rounded-2xl border-4 border-neutral-800 p-4">
+               className="rounded-2xl border-4 border-neutral-800 p-4 z-10 ">
 
                <span className="flex flex-wrap group relative rounded-xl hover:bg-neutral-hover:text-cyan-300 hover:cursor-pointer">
                   <TbBrandNextjs className="text-6xl" />
@@ -88,7 +88,7 @@ const Technology = () => {
                variants={iconVariants(4)} // Pass the variants prop
                initial="initial"
                animate="animate"
-               className="rounded-2xl border-4 border-neutral-800 p-4">
+               className="rounded-2xl border-4 border-neutral-800 p-4 z-10">
 
                <span className="flex flex-wrap group relative rounded-xl hover:bg-neutral-hover:text-cyan-300 hover:cursor-pointer">
                   <FaPhp className="text-6xl text-purple-500" />
@@ -102,7 +102,7 @@ const Technology = () => {
                variants={iconVariants(2.7)} // Pass the variants prop
                initial="initial"
                animate="animate"
-               className="rounded-2xl border-4 border-neutral-800 p-4">
+               className="rounded-2xl border-4 border-neutral-800 p-4 z-10">
 
 
                <span className="flex flex-wrap group relative rounded-xl hover:bg-neutral-hover:text-cyan-300 hover:cursor-pointer">
@@ -137,7 +137,7 @@ const Technology = () => {
 
                <span className="flex flex-wrap group relative rounded-xl hover:bg-neutral-hover:text-cyan-300 hover:cursor-pointer">
                   <AiOutlineHtml5 className="text-6xl text-amber-600" />
-                  <div className="flex flex-wrap gap-1 w-fit absolute top-[7rem] -right-3 scale-0 group-hover:scale-100 bg-neutral-800 px-4 py-3 rounded-lg border-2 border-cyan-400 transition-transform duration-300 ease-in-out -translate-x-15 ">HTML
+                  <div className="z-50 flex flex-wrap gap-1 w-fit absolute top-[7rem] -right-3 scale-0 group-hover:scale-100 bg-neutral-800 px-4 py-3 rounded-lg border-2 border-cyan-400 transition-transform duration-300 ease-in-out -translate-x-15 ">HTML
                      <div className="scale-0 group-hover:scale-100 transition-transform duration-1000 ease-in-out w-5 h-5 bg-neutral-800 border-2 border-t-cyan-400 border-l-cyan-400 border-b-transparent border-r-transparent absolute -top-[0.69rem] right-8 rotate-45"></div>
                   </div>
                </span>
