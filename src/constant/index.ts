@@ -115,7 +115,7 @@ export const PROJECTS: ProjectType[] = [
       description: `It is a simple website,  which provids a quick self-assessment tool for COVID-19 risk.`,
       technologies: ["React", "TypeScript", "Tailwind", "HTML", "CSS"],
       demo_link: "https://coronatest.vustatus.com/",
-      source_code: "https://github.com/Ranveer0208/coronatest",
+      source_code: "https://github.com/Ranveer0208/coronaTest",
    },
 ];
 
