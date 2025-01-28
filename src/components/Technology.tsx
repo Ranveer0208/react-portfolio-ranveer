@@ -59,7 +59,7 @@ const Technology = () => {
                variants={iconVariants(3.2)} // Pass the variants prop
                initial="initial"
                animate="animate"
-               className="rounded-2xl border-4 border-neutral-800 p-4 z-10">
+               className="rounded-2xl border-4 border-neutral-800 p-4 z-30">
                <span className="flex flex-wrap group relative rounded-xl hover:bg-neutral-hover:text-cyan-300 hover:cursor-pointer">
 
                   <BiLogoTypescript className="text-6xl text-blue-500" />
