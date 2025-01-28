@@ -77,14 +77,14 @@ const Projects = () => {
                               <motion.p whileInView={{ opacity: 1 }} initial={{ opacity: 0 }} transition={{ duration: 3 }} className="text-neutral-400 text-xs tracking-tighter">{project.description}</motion.p>
                            </div>
                            <div className="flex justify-around w-full">
-                              <motion.button whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9, rotate: 3 }} className="bg-neutral-900 text-neutral-400 px-2 py-1 rounded-xl text-sm font-medium  hover:bg-neutral-800 hover:text-cyan-300 hover:font-medium active:text-neutral-400">Demo</motion.button>
-                              <motion.button whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9, rotate: 3 }} className="bg-neutral-900 text-neutral-400 px-2 py-1 rounded-xl text-sm font-medium hover:bg-neutral-800 hover:text-cyan-300 hover:font-medium ">Source Code</motion.button>
+                              <motion.a href={project.demo_link} target="_blank" whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9, rotate: 3 }} className="bg-neutral-900 text-neutral-400 px-2 py-1 rounded-xl text-sm font-medium  hover:bg-neutral-800 hover:text-cyan-300 hover:font-medium active:text-neutral-400">Demo</motion.a>
+                              <motion.a href={project.source_code} aria-disabled target="_blank" whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9, rotate: 3 }} className={`bg-neutral-900 text-neutral-400 px-2 py-1 rounded-xl text-sm font-medium hover:bg-neutral-800 hover:text-cyan-300 hover:font-medium ${project.id === 1 || project.id === 3 || project.id === 4 ? 'cursor-not-allowed' : ''}`}>Source Code</motion.a>
 
                               <span className="flex flex-wrap group relative bg-neutral-900 text-neutral-400 px-2 py-1 rounded-xl text-sm font-medium hover:bg-neutral-hover:text-cyan-300 hover:font-medium hover:cursor-pointer">Stack
-                                 <div className="flex flex-wrap gap-1 w-[15rem] absolute scale-0 group-hover:scale-100 bottom-12 -left-[11.5rem] bg-neutral-800 px-4 py-3 rounded-lg border-2 border-pink-400 transition-transform duration-300 ease-in-out -translate-x-15 ">{project.technologies.map((tech, index) => (
+                                 <div className="flex flex-wrap gap-1 w-[15rem] absolute scale-0 group-hover:scale-100 bottom-12 -left-[11.5rem] bg-neutral-800 px-4 py-3 rounded-lg border-2 border-cyan-400 transition-transform duration-300 ease-in-out -translate-x-15 ">{project.technologies.map((tech, index) => (
                                     <span key={index} className="px-2 py-1 bg-slate-900 rounded-md shadow-white box-shad mx-1 text-xs text-purple-300">{tech}</span>
                                  ))}
-                                    <div className="scale-0 group-hover:scale-100 transition-transform duration-1000 ease-in-out w-6 h-6 bg-neutral-800 border-2 border-b-pink-400 border-r-pink-400 border-t-transparent border-l-transparent absolute -bottom-[0.75rem] right-5 rotate-45"></div>
+                                    <div className="scale-0 group-hover:scale-100 transition-transform duration-1000 ease-in-out w-6 h-6 bg-neutral-800 border-2 border-b-cyan-400 border-r-cyan-400 border-t-transparent border-l-transparent absolute -bottom-[0.75rem] right-5 rotate-45"></div>
                                  </div>
                               </span>
                            </div>
