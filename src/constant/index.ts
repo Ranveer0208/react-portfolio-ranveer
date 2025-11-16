@@ -1,6 +1,6 @@
 import project1 from "../assets/projects_pic/kuberaquiz.jpeg";
 import project2 from "../assets/projects_pic/ms.jpeg";
-import project3 from "../assets/projects_pic/rentz4u_landing_page.jpeg";
+import project3 from "../assets/projects_pic/vashto.png";
 import project4 from "../assets/projects_pic/vus.jpeg";
 import project5 from "../assets/projects_pic/portfolio.png"
 import project6 from "../assets/projects_pic/coronatest.jpeg";
