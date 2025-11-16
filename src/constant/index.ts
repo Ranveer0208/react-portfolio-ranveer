@@ -7,7 +7,7 @@ import project6 from "../assets/projects_pic/coronatest.jpeg";
 
 export const HERO_CONTENT: string = `Self-motivated developer with over 3 years of hands-on experience working on a wide range of web-based projects. Passionate about coding and specialize in creating customized user interfaces that are accessible, user-friendly, and secure. I am highly organized and able to manage multiple projects and deadlines effectively. By staying up-to-date with the latest technologies, I consistently apply best practices to deliver high-quality solutions. I am also skilled in adapting to new challenges and continuously improving my work to meet the evolving needs of each project.`;
 
-export const ABOUT_TEXT: string = `I am a motivated software developer with over three years of experience building web-based applications, I have honed my skills in crafting intuitive, secure, and scalable solutions that meet users' needs. During my tenure at AVRL in Seattle, I contributed to developing advanced bot functionalities using JavaScript, earning two promotions in under two years due to consistently high performance. I also managed multiple client projects simultaneously, ensuring timely delivery and quality. Beyond my professional experience, I’ve initiated and built platforms such as Rentz4u and VuStatus, showcasing my expertise in full-stack development and entrepreneurial acumen. For instance, Rentz4u successfully listed ₹2.6 lakh worth of rental properties in its first month.`;
+export const ABOUT_TEXT: string = `I am a motivated software developer with over three years of experience building web-based applications, I have honed my skills in crafting intuitive, secure, and scalable solutions that meet users' needs. During my tenure at AVRL in Seattle, I contributed to developing advanced bot functionalities using JavaScript, earning two promotions in under two years due to consistently high performance. I also managed multiple client projects simultaneously, ensuring timely delivery and quality. Beyond my professional experience, I’ve initiated and built platforms such as Vashto and VuStatus, showcasing my expertise in full-stack development and entrepreneurial acumen. For instance, Vashto successfully listed ₹2.6 lakh worth of rental properties in its first month.`;
 
 type ExperienceType = {
    year: string;
@@ -33,25 +33,25 @@ export const EXPERIENCES: ExperienceType[] | undefined = [
       website: "",
    },
    {
-      year: "Nov 2020 - Dec 2021",
+      year: "Apr 2024 - Present",
       role: "Full Stack Developer",
-      company: "Rentz4u, Ranchi, Jharkhand, India",
+      company: "Vashto, Ranchi, Jharkhand, India",
       description: `
-      • Initiated and developed Rentz4u, a platform designed to help users find budget-friendly rooms for rent.
+      • Initiated and developed Vashto, a platform designed to help users find budget-friendly rooms for rent.
       • Successfully listed ₹2.6 lakh worth of houses in the first month of the platform's launch, demonstrating quick growth and market acceptance.
       • Drove user acquisition and engagement, leading to significant traction and visibility for the platform.`,
       technologies: ["HTML", "CSS", "Javascript", "PHP", "mySQL", "AJAX"],
-      website: "https://rentz4u.vustatus.com"
+      website: "https://vashto.com"
    },
    {
       year: "Nov 2019 - Dec 2021",
-      role: "Full Stack Developer",
+      role: "Full Stack Developer (Practice project)",
       company: "VuStatus app, Ranchi, Jharkhand, India",
       description: `
       • Developed VuStatus, an innovative platform that enables users to check the real-time availability and current status of doctors.•Enabled live appointment tracking, allowing patients to monitor appointment statuses and reducing wait times.
       • Enhanced patient experience by providing transparent, up-to-date information on doctor availability and appointment schedules.`,
       technologies: ["HTML", "CSS", "Javascript", "PHP", "mySQL", "AJAX"],
-      website: "https://business.vustatus.com"
+      website: "https://vustatus.vashto.com"
    },
 ];
 
@@ -72,7 +72,7 @@ export const PROJECTS: ProjectType[] = [
       image: project1,
       description: `A live multiplayer quiz game based on the theme "Invite, Play, Earn, and Learn".`,
       technologies: ["HTML", "CSS", "Javascript", "PHP", "mySQL", "AJAX"],
-      demo_link: "https://kuberaquiz.vustatus.com/",
+      demo_link: "https://kuberaquiz.vashto.com/",
    },
    {
       id: 2,
@@ -85,11 +85,11 @@ export const PROJECTS: ProjectType[] = [
    },
    {
       id: 3,
-      title: "Rentz4u",
+      title: "vashto",
       image: project3,
       description: `a platform designed to help users find budget-friendly rooms for rent.`,
-      technologies: ["HTML", "CSS", "Javascript", "PHP", "mySQL", "AJAX"],
-      demo_link: "https://rentz4u.vustatus.com/",
+      technologies: ["React.js", "Javascript", "Tailwind", "PHP", "mySQL", "AJAX"],
+      demo_link: "https://vashto.com/",
    },
    {
       id: 4,
@@ -97,7 +97,7 @@ export const PROJECTS: ProjectType[] = [
       image: project4,
       description: `A platform that enables users to check the real-time availability & current status of doctors.`,
       technologies: ["React", "TypeScript", "Tailwind", "HTML", "CSS"],
-      demo_link: "https://business.vustatus.com/",
+      demo_link: "https://vustatus.vashto.com/",
    },
    {
       id: 5,
@@ -114,7 +114,7 @@ export const PROJECTS: ProjectType[] = [
       image: project6,
       description: `It is a simple website,  which provids a quick self-assessment tool for COVID-19 risk.`,
       technologies: ["React", "TypeScript", "Tailwind", "HTML", "CSS"],
-      demo_link: "https://coronatest.vustatus.com/",
+      demo_link: "https://coronatest.vashto.com/",
       source_code: "https://github.com/Ranveer0208/coronaTest",
    },
 ];
