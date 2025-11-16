@@ -21,6 +21,17 @@ type ExperienceType = {
 
 export const EXPERIENCES: ExperienceType[] | undefined = [
    {
+      year: "Apr 2024 - Present",
+      role: "Full Stack Developer",
+      company: "Vashto, Ranchi, Jharkhand, India",
+      description: `
+      • Initiated and developed Vashto, a platform designed to help users find budget-friendly rooms for rent.
+      • Successfully listed ₹2.6 lakh worth of houses in the first month of the platform's launch, demonstrating quick growth and market acceptance.
+      • Drove user acquisition and engagement, leading to significant traction and visibility for the platform.`,
+      technologies: ["HTML", "CSS", "Javascript", "PHP", "mySQL", "AJAX"],
+      website: "https://vashto.com"
+   },
+   {
       year: "Dec 2021 - Apr 2024",
       role: "Software Development Engineer",
       company: "AVRL, Seattle, Washington, USA",
@@ -31,17 +42,6 @@ export const EXPERIENCES: ExperienceType[] | undefined = [
       • Dedicated engineer for a key customer for 6-7 months, providing focused support and tailored solutions to meet their specific needs.`,
       technologies: ["Javascript", "Typescript"],
       website: "",
-   },
-   {
-      year: "Apr 2024 - Present",
-      role: "Full Stack Developer",
-      company: "Vashto, Ranchi, Jharkhand, India",
-      description: `
-      • Initiated and developed Vashto, a platform designed to help users find budget-friendly rooms for rent.
-      • Successfully listed ₹2.6 lakh worth of houses in the first month of the platform's launch, demonstrating quick growth and market acceptance.
-      • Drove user acquisition and engagement, leading to significant traction and visibility for the platform.`,
-      technologies: ["HTML", "CSS", "Javascript", "PHP", "mySQL", "AJAX"],
-      website: "https://vashto.com"
    },
    {
       year: "Nov 2019 - Dec 2021",
