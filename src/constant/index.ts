@@ -4,6 +4,7 @@ import project3 from "../assets/projects_pic/vashto.png";
 import project4 from "../assets/projects_pic/vus.jpeg";
 import project5 from "../assets/projects_pic/portfolio.png"
 import project6 from "../assets/projects_pic/coronatest.jpeg";
+import project7 from "../assets/projects_pic/aadivan.png";
 
 export const HERO_CONTENT: string = `Self-motivated developer with over 3 years of hands-on experience working on a wide range of web-based projects. Passionate about coding and specialize in creating customized user interfaces that are accessible, user-friendly, and secure. I am highly organized and able to manage multiple projects and deadlines effectively. By staying up-to-date with the latest technologies, I consistently apply best practices to deliver high-quality solutions. I am also skilled in adapting to new challenges and continuously improving my work to meet the evolving needs of each project.`;
 
@@ -21,9 +22,22 @@ type ExperienceType = {
 
 export const EXPERIENCES: ExperienceType[] | undefined = [
    {
+      year: "Dec 2025 - Present (Contract)",
+      role: "Full Stack Developer (Frontend-Heavy)",
+      company: "Aadivan Foundation, India",
+      description: `
+   • Developed a responsive public-facing NGO website using React.js, ensuring accessibility and performance.
+   • Designed and implemented a secure internal Admin Dashboard for content management.
+   • Built role-based access control and protected routes for different user roles.
+   • Created dynamic CRUD interfaces for managing reports, awards, partners, and activities.
+   • Collaborated closely with stakeholders to translate requirements into scalable UI components.`,
+      technologies: ["React.js", "Javascript", "Tailwind CSS", "PHP", "mySQL"],
+      website: "https://aadivanfoundation.org"
+   },
+   {
       year: "Apr 2024 - Present",
       role: "Full Stack Developer",
-      company: "Vashto, Ranchi, Jharkhand, India",
+      company: "Vashto(live), Ranchi, Jharkhand, India",
       description: `
       • Initiated and developed Vashto, a platform designed to help users find budget-friendly rooms for rent.
       • Successfully listed ₹2.6 lakh worth of houses in the first month of the platform's launch, demonstrating quick growth and market acceptance.
@@ -66,6 +80,15 @@ type ProjectType = {
 }
 
 export const PROJECTS: ProjectType[] = [
+   {
+      id: 7,
+      title: "Aadivan Foundation Website & Admin Dashboard",
+      image: project7,
+      description: `Developed a responsive NGO website along with a secure admin dashboard for content management. Implemented role-based access, protected routes, and dynamic CRUD features for managing reports, partners, awards, and activities.`,
+      technologies: ["React", "JavaScript", "Tailwind", "PHP", "MySQL"],
+      demo_link: "https://aadivanfoundation.org/",
+      source_code: "",
+   },
    {
       id: 1,
       title: "KuberaQuiz (Quiz Game)",
