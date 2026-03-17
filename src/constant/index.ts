@@ -84,7 +84,7 @@ export const PROJECTS: ProjectType[] = [
       id: 7,
       title: "Aadivan Foundation Website & Admin Dashboard",
       image: project7,
-      description: `Developed a responsive NGO website along with a secure admin dashboard for content management.`,
+      description: `Developed a responsive NGO website with a secure admin dashboard.`,
       technologies: ["React", "JavaScript", "Tailwind", "PHP", "MySQL"],
       demo_link: "https://aadivanfoundation.org/",
       source_code: "",
