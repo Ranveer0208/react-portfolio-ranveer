@@ -82,12 +82,12 @@ type ProjectType = {
 export const PROJECTS: ProjectType[] = [
    {
       id: 7,
-      title: "Aadivan Foundation Website & Admin Dashboard",
+      title: "Aadivan Foundation",
       image: project7,
-      description: `Developed a responsive NGO website with a secure admin dashboard.`,
+      description: `Developed a responsive NGO website with a secure ADMIN DASHBOARD.`,
       technologies: ["React", "JavaScript", "Tailwind", "PHP", "MySQL"],
       demo_link: "https://aadivanfoundation.org/",
-      source_code: "",
+
    },
    {
       id: 1,
@@ -96,15 +96,6 @@ export const PROJECTS: ProjectType[] = [
       description: `A live multiplayer quiz game based on the theme "Invite, Play, Earn, and Learn".`,
       technologies: ["HTML", "CSS", "Javascript", "PHP", "mySQL", "AJAX"],
       demo_link: "https://kuberaquiz.vashto.com/",
-   },
-   {
-      id: 2,
-      title: "Microsoft",
-      image: project2,
-      description: `Microsoft's home page clone using Typescript and Tailwind css.`,
-      technologies: ["React", "TypeScript", "Tailwind", "HTML", "CSS"],
-      demo_link: "https://react-microsoft-clone-mu.vercel.app/",
-      source_code: "https://github.com/Ranveer0208/react-microsoft-clone",
    },
    {
       id: 3,
@@ -139,6 +130,15 @@ export const PROJECTS: ProjectType[] = [
       technologies: ["React", "TypeScript", "Tailwind", "HTML", "CSS"],
       demo_link: "https://coronatest.vashto.com/",
       source_code: "https://github.com/Ranveer0208/coronaTest",
+   },
+   {
+      id: 2,
+      title: "Microsoft",
+      image: project2,
+      description: `Microsoft's home page clone using Typescript and Tailwind css.`,
+      technologies: ["React", "TypeScript", "Tailwind", "HTML", "CSS"],
+      demo_link: "https://react-microsoft-clone-mu.vercel.app/",
+      source_code: "https://github.com/Ranveer0208/react-microsoft-clone",
    },
 ];
 
