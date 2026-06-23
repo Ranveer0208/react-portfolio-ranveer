@@ -5,8 +5,9 @@ import project4 from "../assets/projects_pic/vus.jpeg";
 import project5 from "../assets/projects_pic/portfolio.png"
 import project6 from "../assets/projects_pic/coronatest.jpeg";
 import project7 from "../assets/projects_pic/aadivan.png";
+import project8 from "../assets/projects_pic/nkef.png";
 
-export const HERO_CONTENT: string = `Self-motivated developer with over 3 years of hands-on experience working on a wide range of web-based projects. Passionate about coding and specialize in creating customized user interfaces that are accessible, user-friendly, and secure. I am highly organized and able to manage multiple projects and deadlines effectively. By staying up-to-date with the latest technologies, I consistently apply best practices to deliver high-quality solutions. I am also skilled in adapting to new challenges and continuously improving my work to meet the evolving needs of each project.`;
+export const HERO_CONTENT: string = `Frontend-focused Full Stack Developer with 4+ years of experience building scalable web applications using React.js, JavaScript, TypeScript, PHP, and MySQL. Experienced in developing responsive user interfaces, admin dashboards, authentication systems, REST API integrations, and mobile-first applications. Passionate about creating performant, user-friendly products and solving real-world business problems through technology.`;
 
 export const ABOUT_TEXT: string = `I am a motivated software developer with over three years of experience building web-based applications, I have honed my skills in crafting intuitive, secure, and scalable solutions that meet users' needs. During my tenure at AVRL in Seattle, I contributed to developing advanced bot functionalities using JavaScript, earning two promotions in under two years due to consistently high performance. I also managed multiple client projects simultaneously, ensuring timely delivery and quality. Beyond my professional experience, I’ve initiated and built platforms such as Vashto and VuStatus, showcasing my expertise in full-stack development and entrepreneurial acumen. For instance, Vashto successfully listed ₹2.6 lakh worth of rental properties in its first month.`;
 
@@ -22,7 +23,27 @@ type ExperienceType = {
 
 export const EXPERIENCES: ExperienceType[] | undefined = [
    {
-      year: "Dec 2025 - Present (Contract)",
+      year: "Apr 2026 - Present",
+      role: "Full Stack Developer (Frontend-Heavy)",
+      company: "NKEF, India",
+      description: `
+   • Leading the architecture and development of the NGO's public website, Admin Dashboard, and Android application.
+   • Built reusable React and React Native components to support web and mobile platforms.
+   • Implemented role-based authentication and protected route systems for secure admin access.
+   • Integrated REST APIs, dynamic rendering, and reusable component architectures.
+   • Refactored state management architecture to improve maintainability and reduce unnecessary re-renders.`,
+      technologies: [
+         "React.js",
+         "React Native",
+         "JavaScript",
+         "Tailwind CSS",
+         "PHP",
+         "MySQL"
+      ],
+      website: "https://neevkieentfoundation.org/"
+   },
+   {
+      year: "Dec 2025 - Mar 2026 (Contract)",
       role: "Full Stack Developer (Frontend-Heavy)",
       company: "Aadivan Foundation, India",
       description: `
@@ -35,7 +56,7 @@ export const EXPERIENCES: ExperienceType[] | undefined = [
       website: "https://aadivanfoundation.org"
    },
    {
-      year: "Apr 2024 - Present",
+      year: "Apr 2024 - Dec 2025",
       role: "Full Stack Developer",
       company: "Vashto(live), Ranchi, Jharkhand, India",
       description: `
@@ -80,6 +101,21 @@ type ProjectType = {
 }
 
 export const PROJECTS: ProjectType[] = [
+   {
+      id: 8,
+      title: "NKEF",
+      image: project8,
+      description: `Developed an NGO website, secure Admin Dashboard, and Android application with role-based authentication and reusable architecture.`,
+      technologies: [
+         "React",
+         "React Native",
+         "JavaScript",
+         "Tailwind",
+         "PHP",
+         "MySQL"
+      ],
+      demo_link: "https://neevkieentfoundation.org/",
+   },
    {
       id: 7,
       title: "Aadivan Foundation",
