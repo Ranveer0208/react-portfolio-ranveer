@@ -181,5 +181,5 @@ export const PROJECTS: ProjectType[] = [
 export const CONTACT = {
    address: "Ranchi, Jharkhand, India",
    phoneNo: "+91 910-218-8671",
-   email: "ranveer.kumaraug@gmail.com",
+   email: "ranveer.cse02@gmail.com",
 };
